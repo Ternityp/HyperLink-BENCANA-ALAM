@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=SUSE:wght@100..800&display=swap');
+
+* {
+    font-family: 'SUSE', sans-serif;
+}
+
+body {
+    background-color: gray;
+}
+
+.judul {
+    text-align: center;
+}
+
+.artikel {
+    text-align: center;
+    text-transform: uppercase;
+    background-color: gainsboro;
+    font-size: medium;
+}
+
+.gambar {
+    margin: auto;
+    width: 46.4%;
+    border: 8px solid black;
+    padding: 7px;
+    border-radius: 11px;
+    
+}
+
+.gambar #b1 {
+    border-radius: 11px;
+    border-style: solid;
+    height: 46%;
+    width: 36%;
+    
+}
+
+.gambar #b2 {
+    border-radius: 11px;
+    border-style: solid;
+    height: 46%;
+    width: 36%;
+}
+
+.gambar #b3 {
+    border-radius: 11px;
+    border-style: solid;
+    height: 46%;
+    width: 36%;
+}
+
+#link {
+    text-transform: uppercase;
+    font-family: 'SUSE', sans-serif;
+}
+
+
+#link:link {
+    color: black;
+}
+#link:visited {
+    color:  black;
+}
+.link:hover {
+    background-color: black;
+    color: white;
+}

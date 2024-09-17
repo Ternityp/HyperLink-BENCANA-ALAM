@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=SUSE:wght@100..800&display=swap');
+
+* {
+    font-family: 'SUSE', sans-serif;
+}
+
+body {
+    background-color: gray;
+}
+
+.kepala {
+    background-color: white;
+    display: flex;
+    background-size: 100;
+    border-style: solid;
+    border-radius: 14px;
+    border-width: 5px;
+    border-top: 20px;
+}
+
+.kepala .isi {
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 25px;
+}
+
+.artikelJUDUL {
+    background-color: rgb(174, 172, 172);
+    border-radius: 5px;
+}
+
+.artikelJUDUL .jdl {
+    text-align: center;
+    font-size: large;
+}
+
+#artikel1:link {
+    color: black;
+}
+#artikel2:link {
+    color: black;
+}
+#artikel3:link {
+    color: black;
+}
+
+
+
+
+
